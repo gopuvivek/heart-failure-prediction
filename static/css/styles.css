@@ -1,0 +1,72 @@
+body{
+    background-color: palegoldenrod;
+    font-family: 'Segoe UI';
+}
+.form-control
+{
+    margin: auto;
+    width: auto;
+}
+.row-content
+{
+    text-align: center;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+.onlyPrint{
+    display: none;
+}
+.header{
+    margin-top: 50;
+    margin-bottom: 50;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.note{
+    margin-top: 50;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.pred-text{
+    margin-top: 50;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+form{
+    width: 500px;
+    min-height: fit-content;
+    margin-top: 70;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100;
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(236, 228, 139);
+    border:2px solid black;
+}
+.btn-pass{
+    border: solid black !important;
+}
+.btn-pass:hover{
+    background-color: black;
+    color: rgb(236, 228, 139);
+}
+.form-group{
+    margin:20;
+}
+label{
+    text-decoration: wavy solid;
+    font-weight: bold;
+}

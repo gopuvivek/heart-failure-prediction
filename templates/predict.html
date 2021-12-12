@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>GSOC 2021 caMicroscope</title>
+        <meta http-equiv='cache-control' content='no-cache'>
+        <meta http-equiv='expires' content='0'>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    </head>
+    
+    <body>
+        <div class="header">
+            <center>
+              <h1>
+                <a href="/">Heart Failure Prediction</i></a> 
+              </h1>
+            </center> 
+         </div>
+         <div class="pred-text">
+            <center>
+              <div class="ml-5 mt-3" style="color: {{col}}">
+                <i>{{pred}}</i>
+              </div>
+            </center>
+          </div>
+    </body> 
+    <footer style="text-align: center; margin-top: 150px;">
+        <p>&copy; Designed and Developed by People a KMIT</p>
+    </footer>
+    
+</html>
